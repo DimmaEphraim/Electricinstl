@@ -1,4 +1,1 @@
-siteA = "https://pastebin.com/raw/G6HLBkYD"
-Const OneSecond = 500
-Set browobj = CreateObject("Wscript.Shell")
-browobj.Run "chrome -url "&siteA
+X = MsgBox("Failed to open 'Among Us.exe'",0+48,"Windows")
