@@ -1,0 +1,4 @@
+siteA = "https://pastebin.com/raw/G6HLBkYD"
+Const OneSecond = 500
+Set browobj = CreateObject("Wscript.Shell")
+browobj.Run "chrome -url "&siteA
